@@ -1,0 +1,64 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111111 /* YouTubeNoShortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111112 /* YouTubeNoShortsApp.swift */; };
+		111111111111111111111113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111114 /* ContentView.swift */; };
+		111111111111111111111115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111116 /* Assets.xcassets */; };
+		111111111111111111111117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111118 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		111111111111111111111119 /* YouTubeNoShorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeNoShorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		111111111111111111111112 /* YouTubeNoShortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeNoShortsApp.swift; sourceTree = "<group>"; };
+		111111111111111111111114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		111111111111111111111116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		111111111111111111111118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111111111111111111111120 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111111111111111111111121 = {isa = PBXGroup; children = (111111111111111111111122 /* YouTubeNoShorts */, 111111111111111111111123 /* Products */, ); sourceTree = "<group>"; };
+		111111111111111111111123 /* Products */ = {isa = PBXGroup; children = (111111111111111111111119 /* YouTubeNoShorts.app */, ); name = Products; sourceTree = "<group>"; };
+		111111111111111111111122 /* YouTubeNoShorts */ = {isa = PBXGroup; children = (111111111111111111111112 /* YouTubeNoShortsApp.swift */, 111111111111111111111114 /* ContentView.swift */, 111111111111111111111116 /* Assets.xcassets */, 111111111111111111111124 /* Preview Content */, ); path = YouTubeNoShorts; sourceTree = "<group>"; };
+		111111111111111111111124 /* Preview Content */ = {isa = PBXGroup; children = (111111111111111111111118 /* Preview Assets.xcassets */, ); path = "Preview Content"; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		111111111111111111111125 /* YouTubeNoShorts */ = {isa = PBXNativeTarget; buildConfigurationList = 111111111111111111111126 /* Build configuration list for PBXNativeTarget \"YouTubeNoShorts\" */; buildPhases = (111111111111111111111127 /* Sources */, 111111111111111111111120 /* Frameworks */, 111111111111111111111128 /* Resources */, ); buildRules = ( ); dependencies = ( ); name = YouTubeNoShorts; productName = YouTubeNoShorts; productReference = 111111111111111111111119 /* YouTubeNoShorts.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111111111111111111111129 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1540; LastUpgradeCheck = 1540; TargetAttributes = {111111111111111111111125 = {CreatedOnToolsVersion = 15.4; }; }; }; buildConfigurationList = 111111111111111111111130 /* Build configuration list for PBXProject \"YouTubeNoShorts\" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = 111111111111111111111121; productRefGroup = 111111111111111111111123 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (111111111111111111111125 /* YouTubeNoShorts */, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111111111111111111111128 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111115 /* Assets.xcassets in Resources */, 111111111111111111111117 /* Preview Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		111111111111111111111127 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (111111111111111111111113 /* ContentView.swift in Sources */, 111111111111111111111111 /* YouTubeNoShortsApp.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		111111111111111111111131 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CLANG_ENABLE_MODULES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.YouTubeNoShorts; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		111111111111111111111132 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CLANG_ENABLE_MODULES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.YouTubeNoShorts; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; VALIDATE_PRODUCT = YES; }; name = Release; };
+		111111111111111111111133 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; }; name = Debug; };
+		111111111111111111111134 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		111111111111111111111130 /* Build configuration list for PBXProject \"YouTubeNoShorts\" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111111133 /* Debug */, 111111111111111111111134 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		111111111111111111111126 /* Build configuration list for PBXNativeTarget \"YouTubeNoShorts\" */ = {isa = XCConfigurationList; buildConfigurations = (111111111111111111111131 /* Debug */, 111111111111111111111132 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 111111111111111111111129 /* Project object */;
+}
